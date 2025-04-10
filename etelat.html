@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>اطلاعات</h1>
+    <button class="button" onclick="window.location.href='fard.html'">اطلاعات فرد</button>
+    <button class="button" onclick="window.location.href='card.html'">شماره کارت</button>
+    <button class="button" onclick="window.location.href='tamas.html'">شماره تماس</button>
+</body>
+</html>
